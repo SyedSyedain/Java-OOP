@@ -1,15 +1,17 @@
+
+// factorial of a number n
 import java.util.Scanner;
 
 public class Factorial {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        System.out.println("Number is " + n);
+        System.out.println("Number Is " + n);
         int fact = 1;
         for (int i = 1; i <= n; i++) {
             fact = fact * i;
         }
-        System.out.println("factorial is " + fact);
+        System.out.println("Factorial Is " + fact);
         sc.close();
     }
 
