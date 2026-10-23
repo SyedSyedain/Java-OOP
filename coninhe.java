@@ -15,7 +15,6 @@ class derived extends base {
     int y;
 
     derived() {
-        // super(10);
 
         System.out.println(" I Am A Constructor In Derived Classs\n");
     }
@@ -31,21 +30,20 @@ class child extends derived {
     int y;
 
     child() {
-        // super(10);
 
-        System.out.println(" I Am A Constructor In child Classs\n");
+        System.out.println(" I Am A Constructor In Child Classs\n");
     }
 
     child(int x, int y, int z) {
         super(x, y);
-        System.out.println(" I Am A Constructor In Base Classs With Value Of z:" + z);
+        System.out.println(" I Am A Constructor In Base Classs With Value Of Z :" + z);
     }
 
 }
 
 public class coninhe {
     public static void main(String[] args) {
-        d = new derived(10, 20);
+        child c = new child(1, 2, 3);
 
     }
 }
