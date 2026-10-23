@@ -25,6 +25,7 @@ class derived extends base {
 
 }
 
+// dervied can use base classes methods but base class cannot
 public class inheritence {
     public static void main(String[] args) {
         base b = new base();
