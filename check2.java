@@ -15,5 +15,6 @@ public class check2 {
                 System.out.println(i);
 
         }
+        sc.close();
     }
 }

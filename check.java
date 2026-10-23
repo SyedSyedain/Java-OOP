@@ -13,5 +13,6 @@ public class check {
             System.out.println(i);
 
         }
+        sc.close();
     }
 }
