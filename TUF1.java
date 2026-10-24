@@ -114,6 +114,7 @@ public class TUF1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
+        pattern7(n);
         pattern8(n);
 
         sc.close();
