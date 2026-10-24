@@ -18,7 +18,7 @@ public class LCM {
             }
         }
 
-        System.out.println("lcm = " + lcm);
+        System.out.println("lcm is  = " + lcm);
 
         sc.close();
     }
