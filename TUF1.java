@@ -77,6 +77,7 @@ public class TUF1 {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         pattern1(n);
+        pattern3(n);
         sc.close();
     }
 }
