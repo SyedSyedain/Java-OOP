@@ -19,7 +19,7 @@ public class HCF {
             }
         }
 
-        System.out.println("HCF = " + hcf);
+        System.out.println("HCF : = " + hcf);
 
         sc.close();
     }
