@@ -43,7 +43,9 @@ class pc {
                 System.out.print(SUM[i][j] + " ");
             }
             System.out.println();
+
         }
+        sc.close();
 
     }
 }
