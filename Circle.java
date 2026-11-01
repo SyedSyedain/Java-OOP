@@ -37,6 +37,7 @@ class Circle {
 
         System.out.println("Radius Of Circle 2 :" + c2.getradius());
         System.out.println("Area Of Circle 2:" + c2.getarea());
+        sc.close();
 
     }
 }

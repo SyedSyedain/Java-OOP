@@ -34,6 +34,7 @@ public class week {
 
         obj1.display();
         obj2.display();
+        sc.close();
 
     }
 }

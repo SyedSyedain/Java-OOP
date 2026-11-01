@@ -62,7 +62,7 @@ public class anoter {
         System.out.println("2. Triangle");
         System.out.println("3. Square");
 
-        System.out.print("Enter your choice: ");
+        System.out.print("Enter Your Choice: ");
         int choice = sc.nextInt();
 
         switch (choice) {

@@ -7,11 +7,13 @@ class pc {
 
         if (args.length != 1) {
             System.out.println("Invalid Order");
+            sc.close();
             return;
         }
         int N = Integer.parseInt(args[0]);
         if (N < 0) {
             System.out.println(" Order Cant Be Negative");
+            sc.close();
             return;
         }
         int[][] A = new int[N][N];
