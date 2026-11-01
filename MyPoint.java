@@ -97,3 +97,51 @@ public class MyPoint {
         sc.close();
     }
 }
+
+/*
+ * import java.util.Scanner;
+ * 
+ * public class TestMyPoint {
+ * 
+ * public static void main(String[] args) {
+ * 
+ * Scanner sc = new Scanner(System.in);
+ * 
+ * MyPoint p1 = new MyPoint();
+ * 
+ * System.out.println("Enter X And Y Coordinates:");
+ * int x = sc.nextInt();
+ * int y = sc.nextInt();
+ * 
+ * MyPoint p2 = new MyPoint(x, y);
+ * 
+ * System.out.println("Point 1: " + p1);
+ * System.out.println("Point 2: " + p2);
+ * 
+ * System.out.println("Enter New X And Y Coordinates:");
+ * x = sc.nextInt();
+ * y = sc.nextInt();
+ * 
+ * p1.setXY(x, y);
+ * 
+ * int[] coordinates = p1.getXY();
+ * 
+ * System.out.println("X = " + coordinates[0]);
+ * System.out.println("Y = " + coordinates[1]);
+ * 
+ * System.out.println("Updated Point: " + p1);
+ * 
+ * System.out.println("Enter Coordinates For Distance:");
+ * x = sc.nextInt();
+ * y = sc.nextInt();
+ * 
+ * System.out.println("Distance = " + p1.distance(x, y));
+ * 
+ * System.out.println("Distance Between Points = " + p1.distance(p2));
+ * 
+ * System.out.println("Distance From Origin = " + p1.distance());
+ * 
+ * sc.close();
+ * }
+ * }
+ */

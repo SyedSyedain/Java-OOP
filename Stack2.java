@@ -79,6 +79,7 @@ public class Stack2 {
                     s.peek();
                     break;
                 case 5:
+                    sc.close();
                     return;
 
                 default:
