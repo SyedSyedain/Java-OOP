@@ -23,7 +23,7 @@ interface D extends A, B, C {
 
 class Parent {
     void parentMethod() {
-        System.out.println("Parent class method");
+        System.out.println("Parent Class Method");
     }
 }
 
