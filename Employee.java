@@ -109,7 +109,7 @@ public class Employee {
             emp[i].display();
         }
 
-        // Creating object to call operation methods
+        // Creating object to call operation methods=
         Employee obj = new Employee();
 
         obj.salesSalary(emp);
